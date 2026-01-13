@@ -668,7 +668,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"TokenYSFT.sol": "TokenYSFT"
+			"TokenYST.sol": "TokenYST"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -754,12 +754,12 @@
 				"dweb:/ipfs/QmQKVzSQY1PM3Bid4QhgVVZyx6B4Jx7XgaQzLKHj38vJz8"
 			]
 		},
-		"TokenYSFT.sol": {
-			"keccak256": "0x0f15edc7fc95b2868e71f9a45a2c6edae6963b580eb96aae4a4463fb497ab265",
+		"TokenYST.sol": {
+			"keccak256": "0xcb2efae3cc13774ad53ef47d841c1e383de8052483398b4e113624ba8e6a5de9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://49386a22c2f5bce9f6472e572c2cdd3f0b02b91e977a7586cac8f12883fbf040",
-				"dweb:/ipfs/QmVhAk9FM2FUhdfTKKAQv9hhBkw3sTpw6qUcUhWBjugoz6"
+				"bzz-raw://b34f6b24c4d0bc518068729162671a9ad97ec3352b477e370813a3e18a57fa23",
+				"dweb:/ipfs/QmdvM539vf2QtLKNx55dRt8bptSXcpW3M9REtVjPnKXahQ"
 			]
 		}
 	},

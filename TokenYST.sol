@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract TokenYSFT is ERC20, ERC20Burnable, ERC20Pausable, Ownable {
+contract TokenYST is ERC20, ERC20Burnable, ERC20Pausable, Ownable {
     constructor(
         string memory name,
         string memory symbol,
@@ -16,7 +16,7 @@ contract TokenYSFT is ERC20, ERC20Burnable, ERC20Pausable, Ownable {
     }
 
     function decimals() public view virtual override returns (uint8) {
-        return 6;
+        return 18;
     }
 
     function mint(address to, uint256 amount) public onlyOwner {
